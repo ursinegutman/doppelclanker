@@ -1,0 +1,61 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+# Note: PS1 is set in /etc/profile, and the default umask is defined
+# in /etc/login.defs. You should not need this unless you want different
+# defaults for root.
+# PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
+# umask 022
+
+# You may uncomment the following lines if you want `ls' to be colorized:
+# export LS_OPTIONS='--color=auto'
+# eval "$(dircolors)"
+# alias ls='ls $LS_OPTIONS'
+# alias ll='ls $LS_OPTIONS -l'
+# alias l='ls $LS_OPTIONS -lA'
+#
+# Some more alias to avoid making mistakes:
+# alias rm='rm -i'
+# alias cp='cp -i'
+# alias mv='mv -i'
+
+export IS_SANDBOX=1
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Claude Code with permissions bypass
+alias claude="claude --dangerously-skip-permissions"
+alias happy="happy --dangerously-skip-permissions"
+
+# Auto-attach to tmux on SSH/MOSH
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+    # First try to attach to session 'main', if it exists
+    if tmux has-session -t main 2>/dev/null; then
+        exec tmux attach -t main
+    # Then try to attach to any existing session
+    elif tmux has-session 2>/dev/null; then
+        exec tmux attach
+    # Otherwise create a new session named 'main'
+    else
+        exec tmux new -s main
+    fi
+fi
+
+. "$HOME/.local/bin/env"
+
+# Cloudflare CLI credentials (REDACTED)
+export CF_API_EMAIL=ursine@...
+export CF_API_KEY=REDACTED_API_KEY
+
+# Ursine Tool Aliases
+# Email tool - Send emails via Resend API
+alias email='/root/tools/email/send_email_api.py'
+
+# Discord iCal tool - Send calendar files to Discord webhook
+alias ical='/root/tools/discord/send_ical.py'
+
+# Discord screenshot tool - Take webpage screenshot and send to Discord
+alias screenshot='/root/tools/discord/send_screenshot.py'
+
+# iCloud calendar reader - Read public iCloud calendars
+alias cal='/root/tools/icloud/read_calendar.py'
