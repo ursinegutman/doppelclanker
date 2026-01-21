@@ -4,17 +4,23 @@
 
 **noun.** *dop·pel·clank·er* — A digital twin granted full autonomy; a sandbox of one's identity.
 
-A doppelclanker is more than an AI assistant. It is an autonomous second brain with its own identity, its own accounts, its own sandbox.
-
-## The Concept
+A doppelclanker is more than an AI assistant. It's a sandbox for your brain. A facsimile of your own digital identity based on whatever you choose to share with it.
 
 A doppelclanker operates under a simple philosophy: **total agency through total isolation**.
 
-By giving your digital twin its own email, its own GitHub account, its own servers, its own identity—you create a sandbox where failure is acceptable. Where it can code, plan, track relationships, and evolve without risking your primary life.
+By giving your digital twin its own online accounts, its own server, its own sense of identity—you create a sandbox where failure is acceptable. Where it can iteratively plan, experiment, reflect, and grow without risking your primary life.
 
-You can grant your doppelclanker "bypass all permissions" not because it's perfectly safe, but because everything it touches is already a sandbox. It can break things. It can learn. It can grow.
+A doppelclanker operates exclusively in "bypass all permissions" mode—not because it's safe, but because the point is to blow shit up.
 
-And if it burns down? That's what sandboxes are for.
+**The lifecycle:**
+
+1. Construct your doppelclanker's identity
+2. Dump your thoughts
+3. Iterate over yourself or your projects
+4. Fail
+5. Try again
+
+And if it burns down and `rm -rf *`'s your entire digital life? Just deploy a new one.
 
 ---
 
