@@ -80,13 +80,13 @@ That's it. Your doppelclanker is ready. Use it. Break it. Let it learn. Start bu
 
 ## How I Use Ursine
 
-### Research
-Ursine breaks down complex ideas and organizes my thoughts into structured markdown. I'll paste in a dense article or a half-formed concept, and it returns a clean summary with key insights, open questions, and connections to things I've explored before. It builds a knowledge graph over time—mentioning "that distributed systems paper from last month" and pulling the relevant notes. Accessible through Glow, GitHub, Bookstack—whatever I need.
+### Memory Overflow
+The second-brain portion. I info-dump everything—research notes, half-formed ideas, conversations, articles—into the system. Then I query it in natural language: "What did I write about distributed consensus last week?" or "Summarize my notes from that cryptography paper and email them to me." It searches through everything, synthesizes patterns, and returns exactly what I need. No manual tagging, no folder hierarchies—just dump and query.
 
 <details>
-<summary>📹 Demo: Research summarization</summary>
+<summary>📹 Demo: Memory query and retrieval</summary>
 
-[View demo video](demo1_small.mp4) | *Ursine summarizes research notes and emails them*
+[View demo video](demo1_small.mp4) | *Ursine retrieves and summarizes notes from previous sessions*
 
 </details>
 
