@@ -166,6 +166,31 @@
             font-size: 14px;
         }
 
+        .code-block {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 16px 0;
+            overflow-x: auto;
+            font-family: "SF Mono", Monaco, monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #bbb;
+        }
+
+        .code-block .comment {
+            color: #666;
+        }
+
+        .code-block .export {
+            color: #f79;
+        }
+
+        .code-block .string {
+            color: #9f6;
+        }
+
         .examples {
             margin-top: 80px;
         }
@@ -341,6 +366,19 @@
                 <div class="step-title">Configure credentials</div>
                 <div class="step-content">
                     Export API keys and tokens as bash environment variables. Your doppelclanker needs access to its accounts—the email, the cloud providers, everything.
+                    <div class="code-block"><span class="comment"># Example ~/.bashrc credentials section</span>
+
+<span class="export">export</span> CF_API_EMAIL=ursine@...
+<span class="export">export</span> CF_API_KEY=REDACTED_API_KEY
+
+<span class="comment"># Claude Code with permissions bypass</span>
+<span class="export">alias</span> claude=<span class="string">"claude --dangerously-skip-permissions"</span>
+<span class="export">alias</span> happy=<span class="string">"happy --dangerously-skip-permissions"</span>
+
+<span class="comment"># Tool aliases</span>
+<span class="export">alias</span> email=<span class="string">'/root/tools/email/send_email_api.py'</span>
+<span class="export">alias</span> ical=<span class="string">'/root/tools/discord/send_ical.py'</span>
+<span class="export">alias</span> screenshot=<span class="string">'/root/tools/discord/send_screenshot.py'</span></div>
                 </div>
             </div>
 
