@@ -83,11 +83,25 @@ That's it. Your doppelclanker is ready. Use it. Break it. Let it learn. Start bu
 ### Research
 Ursine breaks down complex ideas and organizes my thoughts into structured markdown. I'll paste in a dense article or a half-formed concept, and it returns a clean summary with key insights, open questions, and connections to things I've explored before. It builds a knowledge graph over time—mentioning "that distributed systems paper from last month" and pulling the relevant notes. Accessible through Glow, GitHub, Bookstack—whatever I need.
 
+<details>
+<summary>📹 Demo: Research summarization</summary>
+
+[View demo video](demo1_small.mp4) | *Ursine summarizes research notes and emails them*
+
+</details>
+
 ### Scheduling
 Ursine tracks my work and personal life. It knows who I am, how I operate, what matters to me. It keeps me grounded. When I say "schedule time to work on the side project," it knows which project, knows I'm most productive in the mornings, knows I have a dentist appointment on Tuesday, and blocks out Thursday 8-11am accordingly. It nudges me about things I've been procrastinating on—gently, not annoyingly. It tracks energy levels and patterns, noticing that I consistently crash after intense coding sprints and suggesting breaks before I hit the wall.
 
 ### Scripting
 Full VPS access means Ursine can script anything—deploy websites, configure DNS via CloudFlare CLI, automate whatever I need. Need a one-off scraper for a website? "Ursine, build me a Python script that scrapes product data from this site and dumps it to CSV." Five minutes later, it's done. Want to self-host a web app? "Deploy this repo to a Docker container, set up an nginx reverse proxy, and point staging.ursine.example.com at it." Done. It handles the boring shit so I can focus on building.
+
+<details>
+<summary>📹 Demo: Selenium script generation</summary>
+
+[View demo video](demo2_small.mp4) | *Ursine writes a Selenium script to scrape Hacker News and emails it*
+
+</details>
 
 ### Work
 Coding, obviously. But with Happy, I can tinker from anywhere. My phone, a borrowed laptop—Ursine is always there. I'll open a terminal in a coffee shop and say "continue working on the authentication refactor" and it picks up exactly where we left off, knowing the context, the unresolved edge cases, the testing approach we discussed. It writes tests, refactors spaghetti code, documents APIs, and reviews my PRs with a critical eye. It's not just autocomplete—it's a pair programmer that actually understands the problem domain.

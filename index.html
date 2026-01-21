@@ -187,6 +187,24 @@
             line-height: 1.7;
         }
 
+        .demo {
+            margin: 32px 0;
+        }
+
+        .demo video {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        .demo-caption {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
         a {
             color: #fff;
             text-decoration: none;
@@ -364,6 +382,13 @@
                 <div class="example">
                     <h3>Research</h3>
                     <p>Ursine breaks down complex ideas and organizes my thoughts into structured markdown. I'll paste in a dense article or a half-formed concept, and it returns a clean summary with key insights, open questions, and connections to things I've explored before. It builds a knowledge graph over time—mentioning "that distributed systems paper from last month" and pulling the relevant notes. Accessible through Glow, GitHub, Bookstack—whatever I need.</p>
+                    <div class="demo">
+                        <video controls>
+                            <source src="demo1_small.mp4" type="video/mp4">
+                            Your browser doesn't support video playback.
+                        </video>
+                        <p class="demo-caption">Ursine summarizes research notes and emails them</p>
+                    </div>
                 </div>
 
                 <div class="example">
@@ -374,6 +399,13 @@
                 <div class="example">
                     <h3>Scripting</h3>
                     <p>Full VPS access means Ursine can script anything—deploy websites, configure DNS via CloudFlare CLI, automate whatever I need. Need a one-off scraper for a website? "Ursine, build me a Python script that scrapes product data from this site and dumps it to CSV." Five minutes later, it's done. Want to self-host a web app? "Deploy this repo to a Docker container, set up an nginx reverse proxy, and point staging.ursine.example.com at it." Done. It handles the boring shit so I can focus on building.</p>
+                    <div class="demo">
+                        <video controls>
+                            <source src="demo2_small.mp4" type="video/mp4">
+                            Your browser doesn't support video playback.
+                        </video>
+                        <p class="demo-caption">Ursine writes a Selenium script to scrape Hacker News and emails it</p>
+                    </div>
                 </div>
 
                 <div class="example">
