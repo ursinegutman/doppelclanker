@@ -102,7 +102,7 @@ Ursine tracks my work and personal life. It knows who I am, how I operate, what 
 <details>
 <summary>📹 Demo: Travel planning with CalDAV integration</summary>
 
-[View demo video](videos/calendar_small.mp4) | *Ursine checks calendar, researches destination, plans itinerary with dietary restrictions, and adds events to CalDAV server*
+[View demo video](videos/calendar.mp4) | *Ursine checks calendar, researches destination, plans itinerary with dietary restrictions, and adds events to CalDAV server*
 
 </details>
 
