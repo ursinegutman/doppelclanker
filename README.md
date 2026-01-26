@@ -92,12 +92,19 @@ The second-brain portion. I info-dump everything—research notes, half-formed i
 <details>
 <summary>📹 Demo: Memory query and retrieval</summary>
 
-[View demo video](demo1_small.mp4) | *Ursine retrieves and summarizes notes from previous sessions*
+[View demo video](videos/demo1_small.mp4) | *Ursine retrieves and summarizes notes from previous sessions*
 
 </details>
 
 ### Scheduling
 Ursine tracks my work and personal life. It knows who I am, how I operate, what matters to me. It keeps me grounded. When I say "schedule time to work on the side project," it knows which project, knows I'm most productive in the mornings, knows I have a dentist appointment on Tuesday, and blocks out Thursday 8-11am accordingly. It nudges me about things I've been procrastinating on—gently, not annoyingly. It tracks energy levels and patterns, noticing that I consistently crash after intense coding sprints and suggesting breaks before I hit the wall.
+
+<details>
+<summary>📹 Demo: Travel planning with CalDAV integration</summary>
+
+[View demo video](videos/calendar_small.mp4) | *Ursine checks calendar, researches destination, plans itinerary with dietary restrictions, and adds events to CalDAV server*
+
+</details>
 
 ### Scripting
 Full VPS access means Ursine can script anything—deploy websites, configure DNS via CloudFlare CLI, automate whatever I need. Need a one-off scraper for a website? "Ursine, build me a Python script that scrapes product data from this site and dumps it to CSV." Five minutes later, it's done. Want to self-host a web app? "Deploy this repo to a Docker container, set up an nginx reverse proxy, and point staging.ursine.example.com at it." Done. It handles the boring shit so I can focus on building.
@@ -105,7 +112,7 @@ Full VPS access means Ursine can script anything—deploy websites, configure DN
 <details>
 <summary>📹 Demo: Selenium script generation</summary>
 
-[View demo video](demo2_small.mp4) | *Ursine writes a Selenium script to scrape Hacker News and emails it*
+[View demo video](videos/demo2_small.mp4) | *Ursine writes a Selenium script to scrape Hacker News and emails it*
 
 </details>
 
